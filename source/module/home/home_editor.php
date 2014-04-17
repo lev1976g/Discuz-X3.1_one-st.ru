@@ -17,6 +17,11 @@ $doodle = empty($_GET['doodle']) ? 0 : 1;
 $isportal = empty($_GET['isportal']) ? 0 : 1;
 if (empty($_GET['op'])) {
 	?>
+	<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
 	<html>
 		<head>
 			<meta http-equiv="Content-Type" content="text/html;charset=<?php echo $_GET['charset']; ?>" />
